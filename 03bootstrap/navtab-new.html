@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" crossorigin="anonymous"> 
+    <title>Instagram</title>
+
+  </head>
+  
+  <body>
+
+    <!--navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position: fixed"> <!--fixed-top-->
+      <div class="container">
+    
+         <a class="navbar-brand" href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/200px-Instagram_logo.svg.png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> <!---fnt awesome-->
+        </button>        
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <!---boton modal--->
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Start new post
+</button>
+
+<!-- Boton Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+                      
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown07">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--end Navbar-->
+
+
+<!--Nav tabs-->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        	<br />
+        	
+        	<ul class="nav nav-tabs justify-content-center">
+        		<li class="nav-item">
+        			<a href="#home" class="nav-link active" role="tab" data-toggle="tab">Home</a>
+        		</li>
+
+        		<li class="nav-item">
+        			<a href="#profile" class="nav-link" role="tab" data-toggle="tab">About Us</a>
+        		</li>
+
+        	</ul>
+
+        	<div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="home">Link1
+<!---Cards---------------------------------------------------------------------------->
+              <div class="card shadow-sm">
+                <img src="https://www.jquery-az.com/html/images/banana.jpg" class="card-img-top">
+                  
+                 <div class="card-body">
+                  <h6>23 likes</h6>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+
+              </div>
+
+              <div class="card shadow-sm">
+                <img src="https://www.jquery-az.com/html/images/banana.jpg" class="card-img-top">
+                  
+                 <div class="card-body">
+                  <h6>23 likes</h6>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+
+              </div>
+
+              <!---Final de Cards---------------------------------------------------------------------------->
+
+
+            </div> <!---Final del div Tabpanel-------------------->
+            
+            
+            
+
+				    <div role="tabpanel" class="tab-pane fade" id="profile">link2
+          
+          <!---galeria-------------------------------------------------------------------->	
+					<div class="container my-4">
+
+   
+						<!--Grid row-->
+						<div class="row">
+					
+						  <!--Grid column-->
+						  <div class="col-lg-4 col-md-12 mb-4">
+					
+							<img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(58).jpg" class="img-fluid mb-4" alt="">
+					
+							<img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(66).jpg" class="img-fluid mb-4" alt=""
+							  data-wow-delay="0.3s">
+					
+						  </div>
+						  <!--Grid column-->
+					
+						  <!--Grid column-->
+						  <div class="col-lg-4 col-md-6 mb-4">
+					
+							<img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(74).jpg" class="img-fluid mb-4" alt=""
+							  data-wow-delay="0.1s">
+					
+							<img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(64).jpg" class="img-fluid mb-4" alt=""
+							  data-wow-delay="0.4s">
+					
+						  </div>
+						  <!--Grid column-->
+					
+						  <!--Grid column-->
+						  <div class="col-lg-4 col-md-6 mb-4">
+					
+							<img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(77).jpg" class="img-fluid mb-4" alt=""
+							  data-wow-delay="0.2s">
+					
+							<img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(67).jpg" class="img-fluid mb-4" alt=""
+							  data-wow-delay="0.5s">
+					
+						  </div>
+						  <!--Grid column-->
+					
+						</div>
+						<!--Grid row-->
+					
+            </div>
+            
+            <!---Final de Galeria------------------------------------------------------------------->
+
+				</div>
+				
+        	</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  </body>
+</html>

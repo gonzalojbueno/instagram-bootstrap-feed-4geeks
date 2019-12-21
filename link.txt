@@ -1,0 +1,10 @@
+https://github.com/SonarSystems/Bootstrap-4-Tutorial-Series
+https://www.youtube.com/watch?v=9PUDDRJY3_w
+
+
+.sticky-top {
+position: -webkit-sticky;
+position: sticky;
+top:0px;
+z-index:1050;
+}
